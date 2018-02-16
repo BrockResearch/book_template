@@ -1,7 +1,8 @@
 {
   "plugins": [
     "bibtex-indexed-cite",
-    "image-captions"
+    "image-captions",
+    "include-codeblock"
   ],
   "pluginsConfig": {
     "bibtex-indexed-cite": {
