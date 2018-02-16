@@ -2,7 +2,8 @@
   "plugins": [
     "bibtex-indexed-cite",
     "image-captions",
-    "include-codeblock"
+    "include-codeblock",
+    "plantuml-svg"
   ],
   "pluginsConfig": {
     "bibtex-indexed-cite": {
