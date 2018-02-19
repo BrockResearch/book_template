@@ -1,0 +1,20 @@
+@startuml
+start
+if (**README.md**) then (exists)
+  :Erase Introduction **README.md** content;
+  :Set Introduction **README.md** Header;
+  if (**literature.bib**) then (exists)
+    :Erase **literature.bib** content;
+    if (**book.json**) then (exists)
+      :Run **gitbook install**;
+    else (not exists)
+      :missing required file;
+    endif
+  else (not exists)
+    :missing required file;
+  endif
+else (not exists)
+  :missing required file;
+endif
+stop
+@enduml
