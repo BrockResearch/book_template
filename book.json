@@ -1,4 +1,5 @@
 {
+  "title": "Standard GitBook Template",
   "plugins": [
     "bibtex-indexed-cite",
     "image-captions",
